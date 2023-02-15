@@ -79,7 +79,9 @@ function drawCards(num)
         Hand.push(card);
         
     }
-    
+    console.log("Deck",Deck);
+    console.log("Hand", Hand);
+    console.log("Muck",Muck);
     //current display of Hand contents
     showHand(Hand);
    
